@@ -1,0 +1,23 @@
+# OpenAPI version identifier - required for OpenAPI 3.0 domains
+openapi: 3.0.0
+
+#######################
+# Optional info section
+#######################
+info:
+  title: Category
+  description: Category for ref
+  version: 1.0.1
+
+components:
+  schemas:
+    Category:
+      type: object
+      properties:
+        id: 
+          type: integer
+          format: int64
+        name:
+          type: string
+      xml:
+        name: Category
